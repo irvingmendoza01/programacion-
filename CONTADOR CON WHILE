@@ -1,0 +1,14 @@
+CONTADOR CON WHILE
+// contador del 1 al 100//
+
+main()//se utliza como funcion principal//
+{
+    i = 1;  //Inicializando una variable con un valor//
+    x = i; // variable con valor entero en numero//
+    DO//se utliza para asignar una tarea a hacer// 
+    {
+        printf (x);// se utiliza para imprimir algo en la pantalla//
+        x++;// se le agregara 1 a cada valor de x hasta el 101//
+    } while (x<101);// funcion que indica hasta que valor seguir el programa en este caso 101//
+    printf("adios");//mensaje de despedida con la funcion de imprimir en la pantalla// 
+}
