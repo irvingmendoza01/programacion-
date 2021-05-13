@@ -14,3 +14,4 @@ int main ()
     c= a + b;
     printf("\n El producto es %d", c);
     return 0;
+}
