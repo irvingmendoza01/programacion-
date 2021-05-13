@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+ int main ()
+{
+    float peso,altura,IMC;
+    printf("\n\n MENDOZA LOZANO IRVING 4IV17");
+    printf("\n\n programa 7");
+    printf("\n\n calcular indice de masa corporal");
+    printf("\n\n dame el peso");
+    scanf ("%f", &peso);
+    printf("\n\n dame la altura");
+    scanf ("%f", &altura);
+    IMC= peso/(altura*peso);
+    printf("\n\n la masa muscular es %f",IMC);
+    return 0;
+
+
+}
